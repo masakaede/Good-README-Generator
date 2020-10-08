@@ -1,0 +1,25 @@
+{
+  "name": "good-readme-generator",
+  "version": "1.0.0",
+  "description": "A command-line application that dynamically generates a professional README.md from user's input",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masakaede/Good-README-Generator.git"
+  },
+  "keywords": [
+    "readme generator"
+  ],
+  "author": "Alan Chang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/masakaede/Good-README-Generator/issues"
+  },
+  "homepage": "https://github.com/masakaede/Good-README-Generator#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3"
+  }
+}
