@@ -14,23 +14,23 @@ function promptUser() {
         },
         {
             type: "input",
-            message: "Please enter installation instructions?",
-            name: "installation-instruction"
+            name: "instruction",
+            message: "Please enter installation instructions?"
         },
         {
             type: "input",
-            message: "Please enter usage information?",
-            name: "usage information"
+            name: "usage",
+            message: "Please enter usage information?"
         },
         {
             type: "input",
-            message: "please enter your github username",
-            name: "username"
+            name: "username",
+            message: "please enter your github username"
         },
         {
             type: "input",
-            message: "Please enter your email address",
-            name: "email"
+            name: "email",
+            message: "Please enter your email address"
         }
 
     ])
