@@ -77,24 +77,24 @@ userData().then(function () {
 
     const readme = `# ${answers.name}
 
-    ## Description
-    ${answers.description}
+## Description
+${answers.description}
 
-    ## Table of Contents
-    * [Installation](#Installation)
-    * [Usage](#Usage)
-    * [License](#License)
-    * [Contributing](#Contributing)
-    * [Tests](#Tests)
-    * [Questions](#Questions)
+## Table of Contents
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [License](#License)
+* [Contributing](#Contributing)
+* [Tests](#Tests)
+* [Questions](#Questions)
 
-    ## Installation
-    ${answers.instruction}
+## Installation
+${answers.instruction}
 
-    ## Usage
-    ${answers.usage}
+## Usage
+${answers.usage}
 
-    ## License
+## License
 
 ## Questions
 * Follow me at: <a href="https://github.com/${answers.username}" target="_blank">https://github.com/${answers.username}</a>

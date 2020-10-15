@@ -1,23 +1,23 @@
 # project 1
 
-    ## Description
-    a command line 
+## Description
+a command line
 
-    ## Table of Contents
-    * [Installation](#Installation)
-    * [Usage](#Usage)
-    * [License](#License)
-    * [Contributing](#Contributing)
-    * [Tests](#Tests)
-    * [Questions](#Questions)
+## Table of Contents
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [License](#License)
+* [Contributing](#Contributing)
+* [Tests](#Tests)
+* [Questions](#Questions)
 
-    ## Installation
-    instruction
+## Installation
+instruction
 
-    ## Usage
-    usage info
+## Usage
+usage
 
-    ## License
+## License
 
 ## Questions
 * Follow me at: <a href="https://github.com/masakaede" target="_blank">https://github.com/masakaede</a>
