@@ -14,7 +14,7 @@ A command-line application that dynamically generates a professional README.md f
 ## Installation
 1.	Make sure node.js is installed
 2.	You can type the following code at terminal to check if node.js is installed
-	>  node –version
+	>  node –-version
 3.	If node version doesn’t show up, you can download it from https://nodejs.org/en/download/
 4.	The files you need to run the program are index.js and package.json
 5.	Type the following code to install package
@@ -38,7 +38,7 @@ A command-line application that dynamically generates a professional README.md f
 
 ## Demo
 Click on the pic to see the demo video
-[![SC2 Video](./assets/images/Good-README-Generator.png)](https://drive.google.com/file/d/1eZN4d10VTroXbB36sV0EKN2jDmWPRyli/view)
+[![SC2 Video](./assets/images/Good-README-Generator-Demo.png)](https://drive.google.com/file/d/1eZN4d10VTroXbB36sV0EKN2jDmWPRyli/view)
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
