@@ -13,26 +13,48 @@ function promptUser() {
             message: "What's the description of the project?"
         },
         {
-            type: "input",
+            type: "editor",
             name: "instruction",
             message: "Please enter installation instructions?"
         },
         {
-            type: "input",
+            type: "editor",
             name: "usage",
             message: "Please enter usage information?"
         },
         {
+            type: "list",
+            name: "licence",
+            message: "Please choose your licence (use arrow key to select)",
+            choices: [
+                "Apache",
+                "MIT",
+                "BSD",
+                "GPL",
+                "Mozilla",
+                "LGPL"
+            ]
+        },
+        {
+            type: "input",
+            name: "contributing",
+            message: "Please enter contributing"
+        },
+        {
+            type: "input",
+            name: "tests",
+            message: "Please enter tests"
+        },
+        {
             type: "input",
             name: "username",
-            message: "please enter your github username"
+            message: "Please enter your github username"
         },
         {
             type: "input",
             name: "email",
             message: "Please enter your email address"
         }
-
     ])
 }
 

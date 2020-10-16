@@ -38,17 +38,17 @@ A command-line application that dynamically generates a professional README.md f
 
 
 ## License
-[![License](https://img.shields.io/badge/License-BSD%202--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)
+[![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)
 
 ## Contributing
 Please submit a **Pull request** if you would like to contribute to the project
 
 ## Tests
-Tests
+Several tests was run to make sure different licence badges are showing correctly
 
 ## Questions
 * Follow me at: <a href="https://github.com/masakaede" target="_blank">https://github.com/masakaede</a>
 
-* Please email to gmail if you have any question
+* Please email to pichengchang@gmail.com if you have any question
 
 © 2020 masakaede
