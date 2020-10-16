@@ -18,12 +18,12 @@ function promptUser() {
             message: "What's the description of the project?"
         },
         {
-            type: "input",
+            type: "editor",
             name: "instruction",
             message: "Please enter installation instructions?"
         },
         {
-            type: "input",
+            type: "editor",
             name: "usage",
             message: "Please enter usage information?"
         },
@@ -39,6 +39,16 @@ function promptUser() {
                 "Mozilla",
                 "LGPL"
             ]
+        },
+        {
+            type: "input",
+            name: "contributing",
+            message: "Please enter contributing"
+        },
+        {
+            type: "input",
+            name: "tests",
+            message: "Please enter tests"
         },
         {
             type: "input",
@@ -65,7 +75,6 @@ async function userData() {
 
         console.log("51" + answers.name)
 
-        //"1.	Download packages 2. Type in “node index.js” at terminal 3. Answer prompt questions"
 
         switch (answers.licence) {
             case "Apache":
@@ -131,6 +140,13 @@ ${answers.usage}
 
 ## License
 ${licence}
+
+## Contributing
+${answers.contributing}
+
+## Tests
+${answers.tests}
+
 ## Questions
 * Follow me at: <a href="https://github.com/${answers.username}" target="_blank">https://github.com/${answers.username}</a>
 
